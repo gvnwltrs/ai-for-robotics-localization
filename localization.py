@@ -2,7 +2,15 @@
 
 import numpy as np
 
-# 3 x 3 world 
+"""
+[Purpose]
+
+
+[World]
+World in this case is a crude form of what the robot sees compared to how Google's self driving car views the world. IRL, Google's self driving car extracts features (2D surface models) from its environment instead of using 'red' and 'green'. 
+"""
+
+# 3 x 3 world (commment/uncomment)
 # world = [['green', 'green', 'green'],
 #          ['green', 'red', 'red'],
 #          ['green', 'green', 'green']]
@@ -10,7 +18,7 @@ import numpy as np
 # measurements = ['red', 'red']
 # motions = [[0, 0], [0, 1]]
 
-# 4 x 5 world 
+# 4 x 5 world (comment/uncomment)
 world = [['red', 'green', 'green', 'red', 'red'],
          ['red', 'red', 'green', 'red', 'red'],
          ['red', 'red', 'green', 'green', 'red'],
